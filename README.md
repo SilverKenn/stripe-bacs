@@ -22,7 +22,7 @@ Wordpress &amp; Stripe API for different payment method types (supports user spe
 
 ***Version 1.1.0***
 ---  
-Subscription payment with coupon
+Subscription payment with coupon support and CARD, BACS_DEBIT,SEPA_DEBIT payment method support
 ```html
 <div style="max-width:450px;margin:0 auto">
 [stripe-button title="Subscription Plan Price" price_id="price_0HamOS7DONTkfswqcpYXjPLB" subscription="1" with_coupon="1" success_url="http://site.me/confirm" cancel_url="http://site.me/canceled" type="card,bacs_debit,sepa_debit"]
