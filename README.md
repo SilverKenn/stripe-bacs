@@ -1,4 +1,4 @@
-# Stripe Bacs
+# IBM Payment
 Wordpress &amp; Stripe API for different payment method types (supports user specified amount).  
 ---  
  **Shortode**
