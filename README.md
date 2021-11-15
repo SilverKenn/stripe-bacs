@@ -12,7 +12,7 @@ Wordpress &amp; Stripe API for different payment method types (supports user spe
 `title` - will show as the Payment name on payment capture page (only applies to user define amount).  
 `price_id` - stripe price ID under product.  
 `subscription` - required for subscription price, value must be `1`, (requires webhook connection)  
-`one_time` - additional (one-time) payment item for subscription payment - only supported when payment is subscription
+`one_time` - additional (one-time) payment item for subscription payment - only supported when payment is subscription  
 `with_coupon` - show coupon field, value must be `1`, only work if the payment is subscription  
 `success_url` - override success url from settings page and applies to current session  
 `cancel_url` - override canceled url from settings page and applies to current session  
